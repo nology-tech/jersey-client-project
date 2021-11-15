@@ -16,7 +16,7 @@ The `src` folder contains the following:
 
 **Data**: has the data file Richard sent over plus mock data created to show how various components would work – eg user data to show the security score, alert data to fill up the alerts page.
 
-## **firebase.js**: contains the firebase SDK config to allow for authentication.
+**firebase.js**: contains the firebase SDK config to allow for authentication.
 
 ## App Features & Pages
 
