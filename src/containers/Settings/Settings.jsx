@@ -1,10 +1,11 @@
 import React from 'react'
+import ThemeSettings from '../../components/ThemeSettings/ThemeSettings'
 import "./Settings.scss"
 
 const Settings = () => {
   return (
-    <div className="settings__text">
-      <h1>Settings Page</h1>
+    <div className="settings">
+      <ThemeSettings />
     </div>
   )
 }

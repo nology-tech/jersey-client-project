@@ -15,7 +15,7 @@
   text-align: center;
 
   @include mobile {
-    padding:  0.5rem 2rem;
+    padding:  0.6rem 1.2rem;
     justify-content: space-between;
   }
 
@@ -29,6 +29,8 @@
 
     @include mobile {
       width: 40%;
+      font-size: 0.95rem;
+      margin: none;
     }
   }
 
@@ -108,8 +110,6 @@
   :any-link {
     text-decoration: none;
     color: rgba(115, 120, 134, 1);
-    width: 8%;
-    
 
     &:hover {
       cursor: pointer;
@@ -122,22 +122,28 @@
     padding: 5px;
     width: 11%;
     
-
     @include mobile {
-      margin-right: 1rem;
-      }
+      width: 30%;
+      padding: 8px;
+    }
 
-    &--Low {
+    &--title { 
+        @include mobile {
+            font-size: .9rem;
+        }
+    }
+
+    &--low {
       color: $low-color;
       background-color: rgba($low-color, 0.17);
     }
 
-    &--Medium {
+    &--medium {
       color: $medium-color;
       background-color: rgba($medium-color, 0.17);
     }
 
-    &--High {
+    &--high {
       color: $high-color;
       background-color: rgba($high-color, 0.17);
     }

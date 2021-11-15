@@ -2,17 +2,17 @@
 @use '../../assets/styles/mixins'as *;
 
 
-.settings__text {
-  height: 100vh;
+.settings {
+  height: 80vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 227px;
+  margin-top: 3rem;
+  padding: 2.75rem 5rem;
 
   @include mobile {
     flex-direction: column;
     width: 100%;
-    height: 100vh;
-    margin: 0;
+    height: calc(100vh - 100px);
+    margin: auto;
+    padding: 3.75rem 1rem;
   }
 }

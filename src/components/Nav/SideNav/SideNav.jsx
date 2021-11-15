@@ -60,11 +60,11 @@ const SideNav = (props) => {
                 <p>Settings</p> 
                </div>
             </Link>
-        </div>
         <div className="side-nav__logout">
           <p onClick={handleLogout}>Logout</p>
         </div>
       </div>
+        </div>
 
       <div className="mobile-nav-header" onClick={toggleNav}>
         <div className="mobile-nav-header__items-left">
