@@ -15,9 +15,9 @@ const ThemeSettings = () => {
          <form action="" className="theme-settings__form">
             <h4 className="theme-settings__form--header">Theme</h4>
             <div className="theme-settings__form--radio">
-               <label for="light">Light</label>
+               <label htmlFor="light">Light</label>
                <input type="radio" id="light" name="fav_language" value="HTML" />
-               <label for="dark">Dark</label>
+               <label htmlFor="dark">Dark</label>
                <input type="radio" id="dark" name="fav_language" value="CSS" />
             </div>
             <button onClick={handleApply} className="theme-settings__form--button">Apply</button>

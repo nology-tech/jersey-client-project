@@ -3,7 +3,7 @@
 .device-risk-alert {
   display: grid;
   grid-template-columns: 1fr;
-  justify-items: start;
+  justify-items: flex-start;
   gap: 1rem;
   width: 50%;
   padding: 1.5rem;

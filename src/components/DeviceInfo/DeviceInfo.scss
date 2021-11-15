@@ -19,10 +19,13 @@
       list-style-type: none;
     }
     
-    &__list-item {
+    &-item {
       margin-top: 10px;
       font-size: 0.8rem;
+      padding: 10px;
     }
+
+    
   }
 
   &__edit {
