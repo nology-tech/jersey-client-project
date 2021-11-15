@@ -133,17 +133,17 @@
         }
     }
 
-    &--Low {
+    &--low {
       color: $low-color;
       background-color: rgba($low-color, 0.17);
     }
 
-    &--Medium {
+    &--medium {
       color: $medium-color;
       background-color: rgba($medium-color, 0.17);
     }
 
-    &--High {
+    &--high {
       color: $high-color;
       background-color: rgba($high-color, 0.17);
     }

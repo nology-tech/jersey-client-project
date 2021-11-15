@@ -57,7 +57,7 @@ export const DeviceBar = (props) => {
         return unknownManufacturer
     }
   };
-
+  console.log(securityRisk)
   return (
     <div className="device-bar">
       <Link to={`/device/${name}`} className="device-bar__name"><h4 >{name}</h4></Link>
@@ -83,7 +83,7 @@ export const DeviceBar = (props) => {
       <span
         className={`device-bar__security-risk device-bar__security-risk--${securityRisk}`}
       >
-        <h4 className="device-bar__security-risk--title">{securityRisk}</h4>
+        <h4 className="device-bar__security-risk--title">{securityRisk[0].toUpperCase() + securityRisk.slice(1)}</h4>
       </span>
       <div className="device-bar__options">
       <img
