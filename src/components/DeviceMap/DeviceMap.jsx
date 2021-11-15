@@ -39,7 +39,7 @@ const DeviceMap = (props) => {
 
   Leaflet.Marker.prototype.options.icon = DefaultIcon;
 
-  console.log(details);
+ 
 
   return (
     <>

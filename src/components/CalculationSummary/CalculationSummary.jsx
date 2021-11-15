@@ -10,18 +10,18 @@ const CalculationSummary = (props) => {
 
     const { showMoreInfo, calculationSummaryStatus } = props;
 
-    const itemsJsx = calculationSummaryStatus.map(item => {
+    const itemsJsx = calculationSummaryStatus.map((item, index) => {
         if (item.status) {
             return (
             <>
-            <img className="calculation__items--image" src={Tick} alt="Green tick"/>
-            <p className="calculation__items--text">{item.name}</p>
+            <img key={"calculationIcon" + item.status + index }className="calculation__items--image" src={Tick} alt="Green tick"/>
+            <p key={"calculationText" + item.status + index }className="calculation__items--text">{item.name}</p>
            </>
         )} else {
             return (
             <>
-            <img className="calculation__items--image" src={Cross} alt="Red-Cross"/>
-            <p className="calculation__items--text" style={{color: '#F08E8E'}}>{item.name}</p>
+            <img key={"calculationIcon" + item.status + index } className="calculation__items--image" src={Cross} alt="Red-Cross"/>
+            <p key={"calculationText" + item.status + index } className="calculation__items--text" style={{color: '#F08E8E'}}>{item.name}</p>
             </>
         )}
     })

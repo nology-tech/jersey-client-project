@@ -57,7 +57,7 @@ export const DeviceBar = (props) => {
         return unknownManufacturer
     }
   };
-  console.log(securityRisk)
+ 
   return (
     <div className="device-bar">
       <Link to={`/device/${name}`} className="device-bar__name"><h4 >{name}</h4></Link>
