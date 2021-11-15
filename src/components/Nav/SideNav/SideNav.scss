@@ -17,12 +17,9 @@
   }
 
   &__logo {
-    display: flex;
-    align-self: center;
-    justify-self: center;
     height: 4.48rem;
     width: 4.56rem;
-    margin: 17% 0 18%;
+    margin: 1.5rem 0 3rem;
   }
 
   &__text {
@@ -41,7 +38,7 @@
     display: flex;
     padding-left: 2.5rem;
     align-items: center;
-    margin-bottom: 19%;
+    margin-bottom: 1.5rem;
   }
 
   &__item:hover {
@@ -57,8 +54,7 @@
   &__logout {
     background: #2abca1;
     border-radius: 18px;
-    margin: auto 0 7rem 0;
-    width: 8.31rem;
+    width: 11rem;
     height: 2.2rem;
     display: flex;
     justify-content: center;
@@ -75,7 +71,7 @@
   }
 
   &__settings {
-    margin-top: 40%;
+    margin: 3rem 0;
   }
 }
 
