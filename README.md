@@ -2,6 +2,8 @@
 
 This project was created with react and firebase by the Jersey intake of the \_nology software developer course. The project demonstrated possible design changes for Lujams dashboard [redesign](https://lujam-jersey.web.app/).
 
+For more details on the project read the [hand over](./HANDOVER.md)
+
 ## Overview
 
 The project is built in React and uses Firebase for hosting and authorization.
